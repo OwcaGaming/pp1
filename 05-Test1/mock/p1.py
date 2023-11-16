@@ -6,16 +6,30 @@ of coins that can be used to pay
 for the purchased product.
 '''
 def f(n):
-    coins = 0
-    coins += n//5
-    n = n % 5
-    coins += n//2
-    n = n % 2
-    coins += n
-    return coins
+ coins = 0
+ while n >= 0:
+     if n >= 5:
+         n -= 5
+         coins += 1
+     else:
+         break
+ while n >= 0:
+     if n >= 2:
+         n -= 2
+         coins += 1
+     else:
+         break
+ while n >=0:
+     if n >= 1:
+         n -= 1
+         coins += 1
+     else:
+         break
+ return coins
 
 if __name__ == '__main__':
     #check your program in this place
-    print(f(9))
-    print(f(10))
-    print(f(16))
+    print(f(31))
+    print(f(8))
+    print(f(2))
+    print(f(0))

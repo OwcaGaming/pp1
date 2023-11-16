@@ -1,0 +1,35 @@
+test_p1 (__main__.Test.test_p1) ... ok
+test_p2 (__main__.Test.test_p2) ... ok
+test_p3 (__main__.Test.test_p3) ... ok
+test_p4 (__main__.Test.test_p4) ... ERROR
+test_p5 (__main__.Test.test_p5) ... ERROR
+test_p6 (__main__.Test.test_p6) ... ERROR
+
+======================================================================
+ERROR: test_p4 (__main__.Test.test_p4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\arron\OneDrive\Dokumenty\studia\pp\praca\pp1\05-Test1\mock\check.py", line 32, in test_p4
+    import p4
+ModuleNotFoundError: No module named 'p4'
+
+======================================================================
+ERROR: test_p5 (__main__.Test.test_p5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\arron\OneDrive\Dokumenty\studia\pp\praca\pp1\05-Test1\mock\check.py", line 37, in test_p5
+    import p5
+ModuleNotFoundError: No module named 'p5'
+
+======================================================================
+ERROR: test_p6 (__main__.Test.test_p6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\arron\OneDrive\Dokumenty\studia\pp\praca\pp1\05-Test1\mock\check.py", line 43, in test_p6
+    import p6
+ModuleNotFoundError: No module named 'p6'
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.018s
+
+FAILED (errors=3)
